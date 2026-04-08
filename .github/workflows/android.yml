@@ -24,6 +24,9 @@ jobs:
       with:
         gradle-version: '6.5'
 
+    - name: Install libncurses5
+      run: sudo apt-get update && sudo apt-get install -y libncurses5
+
     - name: Build with Gradle
       run: gradle assembleDebug
       working-directory: ./android_app

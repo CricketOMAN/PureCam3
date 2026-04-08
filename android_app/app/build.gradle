@@ -1,4 +1,4 @@
-// Updated to trigger GitHub Actions sync for libncurses5
+// Updated to trigger GitHub Actions sync for ubuntu-20.04
 apply plugin: 'com.android.application'
 
 android {

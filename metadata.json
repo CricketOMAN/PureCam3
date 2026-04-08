@@ -1,0 +1,8 @@
+{
+  "name": "Open Camera Web",
+  "description": "A web-based clone of the Open Camera interface with a black capture button.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
